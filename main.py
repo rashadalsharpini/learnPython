@@ -17,12 +17,6 @@ functions.loopBackward(num)
 s = input("\nenter the name : ")
 print(s)
 print(s[::-1])
-index = 0
-for i in range(len(s)):
-    if s[i] == ' ':
-        index = i
-        break
-firstName = s[:index]
-lastName = s[index+1:]
+firstName, lastName = functions.splitString(s)
 print(firstName, lastName)
 print(firstName[::-1], lastName[::-1], end='')

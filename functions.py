@@ -24,3 +24,14 @@ def loopForward(n):
         for j in range(n):
             print(j, end=' ')
         print("\n")
+
+
+def splitString(s):
+    index = 0
+    for i in range(len(s)):
+        if s[i] == ' ':
+            index = i
+            break
+    firstName, lastName = s[:index], s[index + 1:]
+    return firstName, lastName
+
