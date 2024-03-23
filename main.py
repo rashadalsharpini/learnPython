@@ -1,25 +1,25 @@
-import functions
-
-functions.forward(10)
-print("\n")
-functions.backward(10)
-
-
-num = int(input("\nenter the number :"))
-for i in range(1, num + 1):
-    print(i, end=' ')
-    if i % 10 == 0:
-        print("\n")
-
-functions.loopForward(num)
-functions.loopBackward(num)
-
-s = input("\nenter the name : ")
-print(s)
-print(s[::-1])
-firstName, lastName = functions.splitString(s)
-print(firstName, lastName)
-print(firstName[::-1], lastName[::-1], end='')
+# import functions
+#
+# functions.forward(10)
+# print("\n")
+# functions.backward(10)
+#
+#
+# num = int(input("\nenter the number :"))
+# for i in range(1, num + 1):
+#     print(i, end=' ')
+#     if i % 10 == 0:
+#         print("\n")
+#
+# functions.loopForward(num)
+# functions.loopBackward(num)
+#
+# s = input("\nenter the name : ")
+# print(s)
+# print(s[::-1])
+# firstName, lastName = functions.splitString(s)
+# print(firstName, lastName)
+# print(firstName[::-1], lastName[::-1], end='')
 
 # split
 a = input("\nenter the value : ")
@@ -35,3 +35,15 @@ print(e.center(9, '-'))
 f = "I love python and cpp because cpp is fast and python is easy."
 print(f.count("cpp"))
 
+# swapCase
+g = "I love Python and Cpp because Cpp is fast and Python is easy."
+print(g.swapcase())
+
+# startSwitch
+h = "I love Python"
+print(h.startswith('I'))
+print(h.startswith('P', 7, 12))
+
+# endSwitch
+print(h.startswith('n'))
+print(h.startswith('e', 2, 6))
