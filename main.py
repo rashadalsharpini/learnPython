@@ -20,3 +20,18 @@ print(s[::-1])
 firstName, lastName = functions.splitString(s)
 print(firstName, lastName)
 print(firstName[::-1], lastName[::-1], end='')
+
+# split
+a = input("\nenter the value : ")
+s = a.split()
+print(s)
+
+# center
+e = "rashad"
+print(e.center(9))
+print(e.center(9, '-'))
+
+# count
+f = "I love python and cpp because cpp is fast and python is easy."
+print(f.count("cpp"))
+
