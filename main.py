@@ -76,3 +76,24 @@ print(g.expandtabs(2))
 # isTitle
 print(g.istitle())
 print(gg.istitle())
+
+# isLower isUpper
+print(g.islower())
+print(g.isupper())
+
+# isIdentifier
+seven = 'rashadAlsharpini'
+eight = 'rashadAlsharpini100'
+nine = 'Rashad--Alsharpini'
+
+print(seven.isidentifier())
+print(eight.isidentifier())
+print(nine.isidentifier())
+
+# isAlpha
+print(seven.isalpha())
+print(eight.isalpha())
+
+# isalnum
+print(seven.isalnum())
+print(eight.isalnum())
