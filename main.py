@@ -47,3 +47,11 @@ print(h.startswith('P', 7, 12))
 # endSwitch
 print(h.startswith('n'))
 print(h.startswith('e', 2, 6))
+
+# index
+print(f.index("p"))
+print(f.index("p", 0, 10))
+# print(f.index("p", 0, 5))
+
+# find
+print(f.find('p'))
