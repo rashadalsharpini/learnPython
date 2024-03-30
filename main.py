@@ -55,3 +55,5 @@ print(f.index("p", 0, 10))
 
 # find
 print(f.find('p'))
+print(f.find('p', 0, 10))
+print(f.find('p', 0, 5))
