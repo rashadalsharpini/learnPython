@@ -97,3 +97,12 @@ print(eight.isalpha())
 # isalnum
 print(seven.isalnum())
 print(eight.isalnum())
+
+# replace(oldValue, NewValue, Count)
+test = "Hello One Two Three One One"
+print(test.replace("One", '1'))
+print(test.replace("One", '1', 1))
+
+# join(iterable)
+myList = ["rashad", "alsharpini", "abdElnaser"]
+print("-".join(myList))
