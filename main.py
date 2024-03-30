@@ -70,4 +70,9 @@ print(es.splitlines())
 
 # expandTabs
 g = "Hello\tWorld\tI\tlove\tpython"
+gg = "Hello\tWorld\tI\tLove\tPython"
 print(g.expandtabs(2))
+
+# isTitle
+print(g.istitle())
+print(gg.istitle())
