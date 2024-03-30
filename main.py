@@ -57,3 +57,13 @@ print(f.index("p", 0, 10))
 print(f.find('p'))
 print(f.find('p', 0, 10))
 print(f.find('p', 0, 5))
+
+# rJust
+print(e.rjust(10))
+print(e.rjust(10, '#'))
+
+# splitLines
+es = """first line
+second line
+third line"""
+print(es.splitlines())
