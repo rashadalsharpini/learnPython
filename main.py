@@ -106,3 +106,14 @@ print(test.replace("One", '1', 1))
 # join(iterable)
 myList = ["rashad", "alsharpini", "abdElnaser"]
 print("-".join(myList))
+
+name = "rashad"
+age = 20
+# %s string
+# %d number
+# %f float
+print("my name is %s and my age is %d" % (name, age))
+
+myNumber = 6
+print("my number is %f" % myNumber)
+print("my number is %.2f" % myNumber)
