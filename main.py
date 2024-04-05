@@ -1,8 +1,9 @@
-import functions
+from functions import *
 
-functions.forward(10)
+
+forward(10)
 print("\n")
-functions.backward(10)
+backward(10)
 
 
 num = int(input("\nenter the number :"))
@@ -11,13 +12,13 @@ for i in range(1, num + 1):
     if i % 10 == 0:
         print("\n")
 
-functions.loopForward(num)
-functions.loopBackward(num)
+loopForward(num)
+loopBackward(num)
 
 s = input("\nenter the name : ")
 print(s)
 print(s[::-1])
-firstName, lastName = functions.splitString(s)
+firstName, lastName = splitString(s)
 print(firstName, lastName)
 print(firstName[::-1], lastName[::-1], end='')
 
@@ -107,6 +108,8 @@ print(test.replace("One", '1', 1))
 myList = ["rashad", "alsharpini", "abdElnaser"]
 print("-".join(myList))
 
+
+# old way
 name = "rashad"
 age = 20
 # %s string
@@ -117,3 +120,7 @@ print("my name is %s and my age is %d" % (name, age))
 myNumber = 6
 print("my number is %f" % myNumber)
 print("my number is %.2f" % myNumber)
+
+# new way
+print("My name is: {}".format(name))
+print("My name is: {:s} and my age is: {:.2f}".format(name, age))
