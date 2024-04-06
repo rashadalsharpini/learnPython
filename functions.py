@@ -34,4 +34,3 @@ def splitString(s):
             break
     firstName, lastName = s[:index], s[index + 1:]
     return firstName, lastName
-

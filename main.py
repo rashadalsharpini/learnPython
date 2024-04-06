@@ -124,3 +124,8 @@ print("my number is %.2f" % myNumber)
 # new way
 print("My name is: {}".format(name))
 print("My name is: {:s} and my age is: {:.2f}".format(name, age))
+
+myMoney = 134134134124124531
+print("my money in the bank is:{:,d}".format(myMoney))
+print("my money in the bank is:{:_d}".format(myMoney))
+print("my money in the bank is:{:d}".format(myMoney))
