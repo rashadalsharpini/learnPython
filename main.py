@@ -129,3 +129,13 @@ myMoney = 134134134124124531
 print("my money in the bank is:{:,d}".format(myMoney))
 print("my money in the bank is:{:d}".format(myMoney))
 print(f"my name is {name} and my age is {age:.2f}")
+
+myAnotherList = [1, 2, 3, "ras", False]
+# append
+myList.append("alaa")
+myList.append(True)
+myList.append(myAnotherList)
+print(myList[5][4])
+# extend
+myList.extend(myAnotherList)
+print(myList)
