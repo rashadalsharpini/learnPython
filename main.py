@@ -151,3 +151,8 @@ print(myAnotherList)
 myAnotherList = [4, 2, 6, 8, 2, 1]
 myAnotherList.reverse()
 print(myAnotherList)
+# clear and copy
+myCopyList = myAnotherList.copy()
+myAnotherList.clear()
+print(myAnotherList)
+print(myCopyList)
