@@ -139,3 +139,15 @@ print(myList[5][4])
 # extend
 myList.extend(myAnotherList)
 print(myList)
+# remove
+myList.remove(myAnotherList)
+print(myList)
+# sort
+# myList.sort()  # it has to be from one kind
+# print(myList)
+myAnotherList = [4, 2, 6, 8, 2, 1]
+myAnotherList.sort(reverse=True)
+print(myAnotherList)
+myAnotherList = [4, 2, 6, 8, 2, 1]
+myAnotherList.reverse()
+print(myAnotherList)
