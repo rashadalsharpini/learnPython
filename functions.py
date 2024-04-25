@@ -34,3 +34,26 @@ def splitString(s):
             break
     firstName, lastName = s[:index], s[index + 1:]
     return firstName, lastName
+
+
+forward(10)
+print("\n")
+backward(10)
+
+
+num = int(input("\nenter the number :"))
+for i in range(1, num + 1):
+    print(i, end=' ')
+    if i % 10 == 0:
+        print("\n")
+
+loopForward(num)
+loopBackward(num)
+
+s = input("\nenter the name : ")
+print(s)
+print(s[::-1])
+firstName, lastName = splitString(s)
+print(firstName, lastName)
+print(firstName[::-1], lastName[::-1], end='')
+print("="*50)
