@@ -190,9 +190,15 @@ print(mySetOne | mySetTwo)
 print(mySetOne.union(mySetTwo))
 mySetThree.add(1234321)
 print(mySetThree)
-# copy remove
+# copy remove clear
 # discard if you give it an element that doesn't exist it won't give you and error
 # unlike the remove you have to be sure that the element exists
 mySetThree.discard(12341324)  # doesn't exist
 mySetThree.discard(1234321)  # exist
+print(mySetThree)
+# pop in the set will pop a random element
+print(mySetThree.pop())
+# update
+Test = {1, 2, 3, 4}
+mySetThree.update(Test)
 print(mySetThree)
