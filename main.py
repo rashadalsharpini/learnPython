@@ -167,3 +167,21 @@ print(myCopyList.pop())
 print(myCopyList)
 print(myCopyList.pop(3))
 print(myCopyList)
+################
+# tuples
+myTupleOne = ("rashad", "ahmed")
+myTupleTwo = "rashad", "ahmed"
+print(myTupleOne)
+print(myTupleTwo)
+print(type(myTupleOne))
+print(type(myTupleTwo))
+# myTupleTwo[0] = 1 # error
+# set not ordered, not indexed and can't be sliced
+mySetOne = {"rashad", "alsharpini", 21}
+print(mySetOne)  # every time print a different order
+# mySetTwo = {"rashad", 100, 100.5, True, [1, 2, 3]}  # TypeError: unhashable type: 'list'
+mySetThree = {"rashad", 100, 100.5, True, (1, 2, 3)}
+print(mySetThree)
+# items is unique
+mySetFour = {"rashad", 100, 100.5, True, (1, 2, 3), 100, 2, 3, 2}
+print(mySetFour)
