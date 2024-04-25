@@ -185,7 +185,14 @@ print(mySetTwo)
 # items is unique
 mySetThree = {"rashad", 100, 100.5, True, (1, 2, 3), 100, 2, 3, 2}
 print(mySetThree)
+# union and add
 print(mySetOne | mySetTwo)
 print(mySetOne.union(mySetTwo))
 mySetThree.add(1234321)
+print(mySetThree)
+# copy remove
+# discard if you give it an element that doesn't exist it won't give you and error
+# unlike the remove you have to be sure that the element exists
+mySetThree.discard(12341324)  # doesn't exist
+mySetThree.discard(1234321)  # exist
 print(mySetThree)
