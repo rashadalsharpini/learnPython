@@ -180,8 +180,12 @@ print(type(myTupleTwo))
 mySetOne = {"rashad", "alsharpini", 21}
 print(mySetOne)  # every time print a different order
 # mySetTwo = {"rashad", 100, 100.5, True, [1, 2, 3]}  # TypeError: unhashable type: 'list'
-mySetThree = {"rashad", 100, 100.5, True, (1, 2, 3)}
-print(mySetThree)
+mySetTwo = {"rashad", 100, 100.5, True, (1, 2, 3)}
+print(mySetTwo)
 # items is unique
-mySetFour = {"rashad", 100, 100.5, True, (1, 2, 3), 100, 2, 3, 2}
-print(mySetFour)
+mySetThree = {"rashad", 100, 100.5, True, (1, 2, 3), 100, 2, 3, 2}
+print(mySetThree)
+print(mySetOne | mySetTwo)
+print(mySetOne.union(mySetTwo))
+mySetThree.add(1234321)
+print(mySetThree)
