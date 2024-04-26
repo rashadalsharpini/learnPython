@@ -1,3 +1,5 @@
+print("tuple Functions\n", "="*50)
+
 myTupleOne = ("rashad", "ahmed")
 myTupleTwo = "rashad", "ahmed"
 print(myTupleOne)

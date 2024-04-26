@@ -1,3 +1,4 @@
+print("set Functions\n", "="*50)
 # set not ordered, not indexed and can't be sliced
 mySetOne = {"rashad", "alsharpini", 21}
 print(mySetOne)  # every time print a different order

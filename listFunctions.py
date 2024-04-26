@@ -1,3 +1,4 @@
+print("list Functions\n", "="*50)
 myList = ["rashad", "alsharpini", "abdElnaser"]
 myAnotherList = [1, 2, 3, "ras", False]
 # append

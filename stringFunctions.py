@@ -1,3 +1,4 @@
+print("string Functions\n", "="*50)
 # split
 a = input("\nenter the value : ")
 s = a.split()
