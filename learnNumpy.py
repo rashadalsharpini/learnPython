@@ -95,3 +95,9 @@ a = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
 print(a[[1, 2, 8]])
 fileData = np.genfromtxt('data.txt', delimiter=',')
 print(fileData[(fileData > 3) & (6 > fileData)])
+
+a = np.zeros((2, 2))
+for i in range(2):
+    for j in range(2):
+        a[i, j] = input()
+print(a)
