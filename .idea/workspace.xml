@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ff285a-b2da-4d77-8bc5-c8138c64c8b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/randomStuff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeConversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnNumpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnNumpy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +139,12 @@
       <workItem from="1714138084768" duration="1247000" />
       <workItem from="1714213648541" duration="767000" />
       <workItem from="1714232320925" duration="4985000" />
-      <workItem from="1714251694430" duration="739000" />
+      <workItem from="1714251694430" duration="1526000" />
+      <workItem from="1714305249442" duration="4237000" />
+      <workItem from="1714317746247" duration="2378000" />
+      <workItem from="1714330251363" duration="3894000" />
+      <workItem from="1714401982520" duration="2426000" />
+      <workItem from="1714420528696" duration="51000" />
     </task>
     <servers />
   </component>
@@ -150,6 +156,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem$main.coverage" NAME="main Coverage Results" MODIFIED="1711142088538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learnPython$main.coverage" NAME="main Coverage Results" MODIFIED="1714252030836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnPython$main.coverage" NAME="main Coverage Results" MODIFIED="1714402229527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
