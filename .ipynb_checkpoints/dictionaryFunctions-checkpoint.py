@@ -69,17 +69,3 @@ print(allItems)
 a = ("one", 'two', "three")
 b = "x"
 print(dict.fromkeys(a, b))
-
-mySkills = {
-    "html": {
-        "main": "80%",
-        "sub": "80%",
-    },
-    'css': {
-        "main": "90%",
-        "sass": "90%",
-    }
-}
-for main_key, main_value in mySkills.items():
-    for sub_key, sub_value in mySkills.items():
-        print(main_key, sub_key, main_value, sub_value)
