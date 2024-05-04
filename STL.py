@@ -38,8 +38,9 @@ import queue
 myQueue = queue.Queue()
 for _ in range(int(input())):
     myQueue.put(input())
-# while not myQueue.empty():
-#     print(myQueue.get())
-print("first")
-for i in range(myQueue.qsize()):
+while not myQueue.empty():
     print(myQueue.get())
+# print("first")
+# for i in range(myQueue.qsize()):
+#     print(myQueue.get()) 
+# erorr it will return the first element
