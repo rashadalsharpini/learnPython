@@ -1,3 +1,4 @@
+# tuple
 # pairs
 def pair():
     pairsList = []
@@ -22,6 +23,8 @@ for _ in range(int(input("enter the number of pairs: "))):
 # Accessing elements of the list of pairs
 for pair in pairs_list:
     print(*pair)
+
+#list
 
 pairList = []
 for _ in range(int(input())):
