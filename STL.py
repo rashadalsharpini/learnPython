@@ -32,3 +32,14 @@ for _ in range(int(input())):
     pair[0] = int(pair[0])
     pairList.append(pair)
 print(pairList)
+
+import queue
+
+myQueue = queue.Queue()
+for _ in range(int(input())):
+    myQueue.put(input())
+# while not myQueue.empty():
+#     print(myQueue.get())
+print("first")
+for i in range(myQueue.qsize()):
+    print(myQueue.get())
