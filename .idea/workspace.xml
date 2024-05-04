@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ff285a-b2da-4d77-8bc5-c8138c64c8b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/data-checkpoint.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/dictionaryFunctions-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/main-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace" beforeDir="false" />
-    </list>
+    <list default="true" id="c8ff285a-b2da-4d77-8bc5-c8138c64c8b6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,6 +147,7 @@
       <workItem from="1714758954486" duration="20000" />
       <workItem from="1714850339685" duration="6394000" />
       <workItem from="1714858866074" duration="63000" />
+      <workItem from="1714859165559" duration="11000" />
     </task>
     <servers />
   </component>
