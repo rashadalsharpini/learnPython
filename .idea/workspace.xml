@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ff285a-b2da-4d77-8bc5-c8138c64c8b6" name="Changes" comment="" />
+    <list default="true" id="c8ff285a-b2da-4d77-8bc5-c8138c64c8b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL.py" beforeDir="false" afterPath="$PROJECT_DIR$/STL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaryFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaryFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +31,12 @@
     &quot;assignee&quot;: &quot;rashadalsharpini&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rashadalsharpini/learnPython.git&quot;,
-    &quot;accountId&quot;: &quot;fbf81bf3-eb77-4a1c-825f-4cd68c05e31a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:rashadalsharpini/learnPython.git",
+    "accountId": "28bf92c6-7817-44cd-a150-0c9400ff54cb"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -148,6 +153,10 @@
       <workItem from="1714850339685" duration="6394000" />
       <workItem from="1714858866074" duration="63000" />
       <workItem from="1714859165559" duration="11000" />
+      <workItem from="1714931337995" duration="93000" />
+      <workItem from="1714997223363" duration="8000" />
+      <workItem from="1715339048520" duration="1558000" />
+      <workItem from="1716454688514" duration="296000" />
     </task>
     <servers />
   </component>
@@ -159,6 +168,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem$main.coverage" NAME="main Coverage Results" MODIFIED="1711142088538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learnPython$main.coverage" NAME="main Coverage Results" MODIFIED="1714858874247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learnPython$main.coverage" NAME="main Coverage Results" MODIFIED="1716454900357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -8,8 +8,8 @@ user = {
     (1, 2, 3): "test",
 }
 print(user)
-print(user["age"])
-print(user.get("age"))
+print(user["age"])  # they both do the same job but this will
+print(user.get("age"))  # return error if the key doesn't exist
 languages = {
     "One": {
         "name": "cpp",
@@ -32,7 +32,7 @@ print(languages["Three"]["name"])
 print(len(languages))
 print(len(languages["Two"]))
 frameWorkOne = {
-    "name": "Vuejs",
+    "name": "keys",
     "progress": "80%"
 }
 frameWorkTwo = {
@@ -83,3 +83,21 @@ mySkills = {
 for main_key, main_value in mySkills.items():
     for sub_key, sub_value in mySkills.items():
         print(main_key, sub_key, main_value, sub_value)
+
+
+# cnt = dict()
+triplet = (1, 2, 3)
+test = [tuple()] * 3
+test[0] = (0, 2, 3)
+test[1] = (1, 0, 3)
+test[2] = (1, 2, 0)
+ans = 0
+cnt = {
+    test[0]: 'rashad',
+    test[1]: 'yousef',
+    test[2]: 'sayd'
+}
+# print(test)
+for trip in test:
+    print(cnt.get(trip, 0))  # the second argument is returned if the key doesn't exist
+print(cnt)

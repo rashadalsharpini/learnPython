@@ -12,7 +12,6 @@ def pair():
 pairs_list = pair()
 print(pairs_list)
 
-
 print("pairs how to enter them and print them")
 pairs_list = []
 
@@ -24,7 +23,7 @@ for _ in range(int(input("enter the number of pairs: "))):
 for pair in pairs_list:
     print(*pair)
 
-#list
+# list
 
 pairList = []
 for _ in range(int(input())):
@@ -43,4 +42,4 @@ while not myQueue.empty():
 # print("first")
 # for i in range(myQueue.qsize()):
 #     print(myQueue.get()) 
-# erorr it will return the first element
+# error it will return the first element
